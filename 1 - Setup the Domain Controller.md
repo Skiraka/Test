@@ -2,6 +2,7 @@
 - Create and set up the Domain, Windows Server Domain Controller
 <img width="137" height="178" alt="image" src="https://github.com/user-attachments/assets/b1b84dcd-5c8a-4343-b8c5-59358606ab73" />
 
+---
 
 ## Configuration
 
@@ -16,7 +17,7 @@
 | Default Gateway    | 192.168.142.2                  |
 | DNS Server         | 127.0.0.1                      |
 
-
+---
 
 ## Configuration Steps
 
