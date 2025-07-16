@@ -33,8 +33,8 @@
 ## Test User Login
 - On PC-1 and PC-2:
   - Logged out domain admin.
-  - Logged in as newly created users jdoe and jsmith with password
-  - Confirmed successful login to domain profile.
+  - Logged in as newly created users jdoe and jsmith.
+  - Confirmed successful login to domain profiles.
 
 
 
