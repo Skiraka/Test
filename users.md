@@ -23,11 +23,11 @@
 - Confirmed each PC was adde to Active Directory Users and Computers
   -  Moved each computer to the Computers OU for GPO assignment in later labs.
  
-## 1.4 Create User Accounts in AD DS
+## Create User Accounts in AD DS
 - On DC-1, logged in as domain administrator.
 - Opened Active Directory Users and Computers, Navigated to Users OU and Created new users:
   - jdoe (Jane Doe), jsmith (John Smith)
   - <img width="217" height="38" alt="image" src="https://github.com/user-attachments/assets/cbdee6dd-28a6-4df9-a8c6-d5d52884329d" />
-
 - Set passwords and configured “User must change password at next logon” where appropriate.
+- 
 
