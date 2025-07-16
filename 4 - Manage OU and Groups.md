@@ -16,13 +16,13 @@
 
 ## Group Assignment
 
-| Full Name    | Username | Department | Role           | Group(s)         |
-|------------- |----------|------------|----------------|------------------|
-| Juan Bernard | jbern    | IT         | IT Admin       | IT_Admins        |
-| John Smith   | jsmith   | HR         | HR Staff       | HR_ReadOnly      |
-| Jane Doe     | jdoe     | Sales      | Sales Rep      | Sales_ReadOnly   |
-| Megan White  | mwhite   | HR         | HR Manager     | HR_FullAccess    |
-| Alex Ray     | aray     | Sales      | Sales Manager  | Sales_FullAccess |
+| Full Name    | Username | Department | Role           | Group(s)                    |
+|------------- |----------|------------|----------------|-----------------------------|
+| Juan Bernard | jbern    | IT         | IT Admin       | IT_Admins, All_Staff        |
+| John Smith   | jsmith   | HR         | HR Staff       | HR_ReadOnly, All_Staff      |
+| Jane Doe     | jdoe     | Sales      | Sales Rep      | Sales_ReadOnly, All_Staff   |
+| Megan White  | mwhite   | HR         | HR Manager     | HR_FullAccess, All_Staff    |
+| Alex Ray     | aray     | Sales      | Sales Manager  | Sales_FullAccess, All_Staff |
 
 
 ## Verification
