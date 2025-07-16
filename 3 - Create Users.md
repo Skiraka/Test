@@ -26,14 +26,12 @@
 ## Create User Accounts in AD DS
 - On DC-1, logged in as domain administrator.
 - Opened Active Directory Users and Computers, Navigated to Users OU and Created new users:
-  - jdoe (Jane Doe), jsmith (John Smith)
-  - <img width="217" height="38" alt="image" src="https://github.com/user-attachments/assets/cbdee6dd-28a6-4df9-a8c6-d5d52884329d" />
-- Set passwords and configured “User must change password at next logon” where appropriate.
-
+  - <img width="220" height="100" alt="image" src="https://github.com/user-attachments/assets/0b9b817b-7dd0-405b-8724-f1c83991f78d" />
+- Set passwords and configured “User must change password at next logon”.
 ## Test User Login
 - On PC-1 and PC-2:
   - Logged out domain admin.
-  - Logged in as newly created users jdoe and jsmith.
+  - Logged in as newly created users.
   - Confirmed successful login to domain profiles.
 
 
