@@ -29,5 +29,12 @@
   - jdoe (Jane Doe), jsmith (John Smith)
   - <img width="217" height="38" alt="image" src="https://github.com/user-attachments/assets/cbdee6dd-28a6-4df9-a8c6-d5d52884329d" />
 - Set passwords and configured “User must change password at next logon” where appropriate.
-- 
+
+## Test User Login
+- On PC-1 and PC-2:
+  - Logged out domain admin.
+  - Logged in as newly created users jdoe and jsmith with password
+  - Confirmed successful login to domain profile.
+
+
 
