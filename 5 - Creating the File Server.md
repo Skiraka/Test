@@ -37,8 +37,7 @@
 - HR_ReadOnly = Read on HR
 - HR_FullAccess = Modify on HR
 - Similar for Sales & IT groups
-- Shared each folder via File Explorer:
-    - Share name matches folder name (\\\FS-1\HR)
+- Shared each folder via File Explorer
 
 ### Test Access from Clients
 - Logged in as different users  on lab PCs
