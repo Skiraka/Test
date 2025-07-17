@@ -20,7 +20,7 @@
 - Opened Command Prompt, ran whoami to verify logged in as domain user.
 - Opened System Properties again to verify domain membership.
   - <img width="592" height="243" alt="image" src="https://github.com/user-attachments/assets/e0d80206-2719-47d3-b140-9f70b6a5afa1" />
-- Confirmed each PC was adde to Active Directory Users and Computers
+- Confirmed each PC was added to Active Directory Users and Computers
   -  Moved each computer to the Computers OU for GPO assignment in later labs.
  
 ## Create User Accounts in AD DS
@@ -28,11 +28,17 @@
 - Opened Active Directory Users and Computers, Navigated to Users OU and Created new users:
   - <img width="220" height="100" alt="image" src="https://github.com/user-attachments/assets/0b9b817b-7dd0-405b-8724-f1c83991f78d" />
 - Set passwords and configured “User must change password at next logon”.
+  
 ## Test User Login
 - On PC-1 and PC-2:
   - Logged out domain admin.
   - Logged in as newly created users.
   - Confirmed successful login to domain profiles.
+ 
+## Verified Central Management
+- From Active Directory Domain Services:
+  - Verified account password reset.
+  - Disabled and Enabled accounts.
 
 
 
