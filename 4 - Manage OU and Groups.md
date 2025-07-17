@@ -27,7 +27,7 @@
 
 ## Verification
 - Verified group memberships via:
-  - Active Directory Users and Computers (GUI)
+  - Active Directory Users and Computers.
   - whoami /groups from logged-in client VMs.
 
 ## Notes
