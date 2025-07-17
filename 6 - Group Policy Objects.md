@@ -38,7 +38,6 @@
 ---
 
 ## Verification
-Testing & Verification
 - Logged in with jdoe and aray, verified:
   - Login banner displayed.
   - Drive S: (Sales) auto-mapped.
