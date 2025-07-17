@@ -1,5 +1,5 @@
 # Goal
-- Build an OU and group structure in Active Directory to organize users, computers, and manage permissions across the lab.
+- Build an Organizational Unit and Group structure in Active Directory to organize users, computers, and manage permissions across the lab.
 
 ## OU Structure
 - Created a basic but scalable  OU hierarchy to simulate department-based organization.
