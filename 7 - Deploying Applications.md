@@ -19,7 +19,30 @@
 
 ---
 
-## Creating and Deploying an Application
-- Now that PC-10 has the ECM client installed I wanted to verify that I could actually push software through the Configuration Manager pipeline — from application creation, to distribution, to deployment, to client installation.
-  <img width="854" height="46" alt="image" src="https://github.com/user-attachments/assets/0dbf5875-e8a0-47a6-a087-cac8f2f267ec" />
-- Test
+## Creating the Application
+- Now that PC-10 has the Software Center client installed I wanted to verify that I could actually push software through the Configuration Manager.
+    <img width="854" height="46" alt="image" src="https://github.com/user-attachments/assets/0dbf5875-e8a0-47a6-a087-cac8f2f267ec" />
+- Downloaded 7zip (7z2500-x64.msi) into the lab source share: \\CM-01\SCCM_Sources\Applications\7Zip
+- In the MECM console:
+ - Software Library > Applications
+ - Created a new application using the MSI wizard
+ - Application Name: 7-Zip 25.00 (x64 edition)
+
+ ---
+
+## Deploying the Application
+- Right-clicked 7-Zip > Deploy
+ - Selected All Systems as the target collection (includes PC-10)
+ - Deployment Purpose: Available
+ - Made availability immediate.
+
+---
+
+## Client Verification
+- On PC-10:
+ - Opened Software Center
+ - 7-Zip was available under Applications
+ - Clicked Install → installation succeeded
+ - Confirmed presence of 7-Zip under Start Menu and Apps & Features
+<img width="475" height="330" alt="image" src="https://github.com/user-attachments/assets/fba7b931-af8c-4f8b-9497-49ce590d1f1f" />
+
