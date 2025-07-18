@@ -43,6 +43,7 @@
 ## Client Software Center Verification
 - On PC-10:
   - Opened Software Center
+  - Manually triggered the Configuration Manager cycles to speed up detection and software availability.
   - 7-Zip was available under Applications
   - Clicked Install → installation succeeded
   - Confirmed presence of 7-Zip under Start Menu and Apps & Features
