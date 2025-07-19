@@ -29,7 +29,7 @@
 ---
 
 ### Create Department Shared Folders
-
+- Created directories to be used by each department.
 <img width="78" height="146" alt="image" src="https://github.com/user-attachments/assets/87fc6485-7481-4e40-bc87-5762b7b3221b" />
 
 
