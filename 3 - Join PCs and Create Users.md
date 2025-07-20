@@ -24,7 +24,9 @@
   - Username: domainname\Administrator
 - Opened Command Prompt, ran whoami to verify logged in as domain user.
 - Opened System Properties again to verify domain membership.
-  - <img width="592" height="243" alt="image" src="https://github.com/user-attachments/assets/e0d80206-2719-47d3-b140-9f70b6a5afa1" />
+  
+  <img width="592" height="243" alt="image" src="https://github.com/user-attachments/assets/e0d80206-2719-47d3-b140-9f70b6a5afa1" />
+  
 - Confirmed each PC was added to Active Directory Users and Computers
   -  Moved each computer to the Computers OU for GPO assignment in later labs.
 
@@ -33,7 +35,9 @@
 ## Create User Accounts in AD DS
 - On DC-1, logged in as domain administrator.
 - Opened Active Directory Users and Computers, Navigated to Users OU and Created new users:
-  - <img width="220" height="100" alt="image" src="https://github.com/user-attachments/assets/0b9b817b-7dd0-405b-8724-f1c83991f78d" />
+  
+  <img width="220" height="100" alt="image" src="https://github.com/user-attachments/assets/0b9b817b-7dd0-405b-8724-f1c83991f78d" />
+  
 - Set passwords and configured “User must change password at next logon”.
 
   ---
@@ -50,6 +54,22 @@
 - From Active Directory Domain Services:
   - Verified account password reset.
   - Disabled and Enabled accounts.
+
+---
+
+## Installing Remote Server Installation Tools (RSAT)
+- To be able to manage the domain remotely, `PC-1` is used as an admin workstation with RSAT tools installed.
+- Installed the RSAT: Active Directory suite optional features from Settings.
+
+  <img width="416" height="67" alt="image" src="https://github.com/user-attachments/assets/67f7097b-55b2-4580-9ff0-36c02b727f67" />
+
+- Confirmed RSAT installed and `PC-1` could access Active Directory Domain Services remotely.
+
+  <img width="255" height="209" alt="image" src="https://github.com/user-attachments/assets/28215ea8-9e72-4bac-bb27-5c0f1aff9e51" />
+
+---
+
+## Setting up Remote Desktop Protocol (RDP)
 
 
 
