@@ -14,7 +14,7 @@
 | Domain Name        | domainname.com                 |
 | IP Address         | 192.168.100.50                 |
 | Subnet Mask        | 255.255.255.0                  |
-| Default Gateway    | 192.168.142.2                  |
+| Default Gateway    |                                |
 | DNS Server         | 127.0.0.1                      |
 
 ---
