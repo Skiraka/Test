@@ -26,7 +26,7 @@
 
 | Full Name    | Username | Department | Role           | Group(s)                    |
 |------------- |----------|------------|----------------|-----------------------------|
-| Juan Bernard | jbern    | IT         | IT Admin       | IT_Admins, All_Staff        |
+| Juan Bernard | jb       | IT         | IT Admin       | IT_Admins, All_Staff        |
 | John Smith   | jsmith   | HR         | HR Staff       | HR_ReadOnly, All_Staff      |
 | Jane Doe     | jdoe     | Sales      | Sales Rep      | Sales_ReadOnly, All_Staff   |
 | Megan White  | mwhite   | HR         | HR Manager     | HR_FullAccess, All_Staff    |
