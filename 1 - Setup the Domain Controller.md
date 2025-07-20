@@ -19,9 +19,7 @@
 
 ---
 
-## Configuration Steps
-
-### Create and prepare the VM
+## Create and prepare the VM
 - Created the VM with hostname DC-1.
 - Installed Windows Server 2022 from ISO.
 - Set the Server hostname to DC-1.
@@ -30,22 +28,31 @@
   - Subnet Mask: 255.255.255.0
   - Default Gateway: None, internet access handled by other virtual NIC.
   - DNS Server: 127.0.0.1
+  
+---
 
-### Install AD DS and DNS Roles
+## Install AD DS and DNS Roles
 - Installed the Active Directory Domain Services and DNS Server roles.
 
-### Promote Server to Domain Controller
+---
+
+## Promote Server to Domain Controller
 - Promoted Server to Domain Controller, creating a new forest with the domain name 'domainname.com'.
 - Rebooted server upon completion.
 
-### Verification
+---
+
+## Verification
 - Logged in as domain administrator 'domainname\Administrator'
 - Opened Active Directory Users and Computers to confirm domain structure.
 - Ran ipconfig /all to confirm static IP and DNS settings.
 
-### Domain OU set up
+--- 
+
+## Domain OU set up
 - Created custom Organizational Units (OU) to reflect a basic lab structure:
-  - <img width="193" height="199" alt="image" src="https://github.com/user-attachments/assets/1e76b192-44d8-4fd6-b323-f87206fbf3b2" />
+
+<img width="193" height="199" alt="image" src="https://github.com/user-attachments/assets/1e76b192-44d8-4fd6-b323-f87206fbf3b2" />
 
 
 
