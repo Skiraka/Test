@@ -1,0 +1,9 @@
+# Goal
+- Ensure users are licensed and can access basic Microsoft 365 Services.
+
+---
+
+## Licensing
+- Created a group in M365 Entra ID named `Lic_O365_AllUsers`.
+- Added licenses to the group to allow any user aded to the group will now receive a `Microsoft 365 Business Premium` license.
+- Manually added users to the group.
