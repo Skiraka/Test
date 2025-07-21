@@ -28,6 +28,7 @@
   
   <img width="740" height="118" alt="ff8a3244-e2c6-4109-9136-97605c7e7003" src="https://github.com/user-attachments/assets/5947fedb-b04d-46a6-9e37-174369caf701" />
 
+- Confirmed user accounts can log in to Microsoft 365.
 ---
 
 ## Notes
