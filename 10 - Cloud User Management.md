@@ -8,4 +8,10 @@
 - Assigned the `Microsoft 365 Business Premium` license to the group.
 - Manually added synced users to the group to verify licensing.
 - Verified assigned licenses applied successfully via M365 Admin Center.
-  <img width="832" height="110" alt="image" src="https://github.com/user-attachments/assets/9b40f27f-4bff-47c2-9102-4a08efe5259e" />
+
+  <img width="825" height="116" alt="image" src="https://github.com/user-attachments/assets/81872b54-deb3-4b58-ab8f-0e5f814c3202" />
+
+---
+
+
+
