@@ -67,9 +67,5 @@
 
   <img width="255" height="209" alt="image" src="https://github.com/user-attachments/assets/28215ea8-9e72-4bac-bb27-5c0f1aff9e51" />
 
----
-
-## Setting up Remote Desktop Protocol (RDP)
-
 
 
