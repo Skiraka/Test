@@ -31,8 +31,19 @@
 ## Test Configuration Profile
 - `PC-2` still has their Firewall off from the compliance policy test.
 - Triggered forced syncing.
-- Confirmed configuration profile applied, with `PC-2` having all Firewalls on and passing the compliance policy.
-- 
+- Confirmed configuration profile applied with `PC-2` having all Firewalls on.
+  
+  <img width="564" height="64" alt="image" src="https://github.com/user-attachments/assets/cc2b2ed9-95b3-4aa2-bdad-ee795bf57775" />
+
+- Compliance Policy report now showing `PC-2` to be in compliance.
+
+  <img width="1056" height="59" alt="image" src="https://github.com/user-attachments/assets/0ea26ae4-3702-4dec-849a-5a2a0a2cbc88" />
+
+---
+
+
+    
+
 
   
     
