@@ -18,6 +18,8 @@
 - Confirmed each user now has a mailbox via Exchange Admin Center.
 - Each user can successfully send and receive mail.
 
+  <img width="297" height="65" alt="image" src="https://github.com/user-attachments/assets/5d9b4f68-be8c-43f2-ab2c-3294dd7dacca" />
+
 ---
 
 ## OneDrive
