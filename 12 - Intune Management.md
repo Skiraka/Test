@@ -23,6 +23,8 @@
 ---
 
 ## Create Configuration Profile
-- 
+- Created new Configuration Profile via `Intune > Devices > Configuration'
+- Named Configuration `Enforce Firewall On ` requiring Firewall `Enabled` on:
+  
     
 
