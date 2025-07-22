@@ -14,8 +14,10 @@
 ---
 
 ## Intune Enrollment
+- Set Intune > Devices > Enrollment > Automatic Enrollment > MDM User Scope to `All`.
 - Created a Group Policy Object enabling MDM enrollment and applied to the Computers OU.
     - Restarted the computer and used `gpresult /r` to confirm the PC received the GPO.
+  
   <img width="487" height="75" alt="image" src="https://github.com/user-attachments/assets/ba6a7282-7426-4968-b1e4-48eb25c65f09" />
 
 - Confirmed device configuration showing joined.
