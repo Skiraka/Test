@@ -14,4 +14,15 @@
 ---
 
 
+## Outlook
+- Confirmed each user now has a mailbox via Exchange Admin Center.
+- Each user can successfully send and receive mail.
+
+---
+
+## OneDrive
+- Users can successfuly open OneDrive.
+- Uploaded sample file, tested sharing with other user 
+
+--
 
