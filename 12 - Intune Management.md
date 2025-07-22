@@ -26,5 +26,8 @@
 - Created new Configuration Profile via `Intune > Devices > Configuration'
 - Named Configuration `Enforce Firewall On ` requiring Firewall `Enabled` on:
   
+  <img width="298" height="81" alt="image" src="https://github.com/user-attachments/assets/d2df3ef7-f253-475b-8c7a-105195e9dece" />
+
+  
     
 
