@@ -11,8 +11,7 @@
   <img width="809" height="64" alt="image" src="https://github.com/user-attachments/assets/41305bac-eebf-4631-9837-90d2fc2bc566" />
 
 ## Test Compliance Policy
-- To test the policy:
-  - Manually turned off the Firewall on `PC-2`.
+- Manually turned off the Firewall on `PC-2`.
 - Forced Intune Sync by:
   - Intune Admin Center > Devices > PC-2 > Sync
   - On `PC-2` Synced device via `Settings > Accounts > Access Work or School > Info > Sync`.
@@ -24,9 +23,16 @@
 
 ## Create Configuration Profile
 - Created new Configuration Profile via `Intune > Devices > Configuration'
-- Named Configuration `Enforce Firewall On ` requiring Firewall `Enabled` on:
+- Named Configuration `Enforce Firewall On ` requiring Firewall `Enabled`.
+- Assigned configuration to all devices.
   
   <img width="298" height="81" alt="image" src="https://github.com/user-attachments/assets/d2df3ef7-f253-475b-8c7a-105195e9dece" />
+
+## Test Configuration Profile
+- `PC-2` still has their Firewall off from the compliance policy test.
+- Triggered forced syncing.
+- Confirmed configuration profile applied, with `PC-2` having all Firewalls on and passing the compliance policy.
+- 
 
   
     
