@@ -20,4 +20,9 @@
 - Confirmed device configuration showing joined.
   
   <img width="337" height="153" alt="image" src="https://github.com/user-attachments/assets/c27b8ae4-3a85-42fc-bda5-514835fceddd" />
+
+- Confirmed devices enrolled in Intune.
+
+  <img width="379" height="101" alt="image" src="https://github.com/user-attachments/assets/e3e4ca90-1dc4-40d7-bea4-da85b36871bc" />
+
   
