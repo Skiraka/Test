@@ -43,12 +43,18 @@
 
 ## Deploying Applications
 - Created new Application via Intune > Devices > Apps
+  - Assigned app to all Devices
+  - Selected apps: Word, Excel, PowerPoint, Outlook, OneDrive, Teams
 
-  <img width="772" height="31" alt="image" src="https://github.com/user-attachments/assets/b0194fa6-4768-47ac-8362-505f21c6f172" />
+    <img width="772" height="31" alt="image" src="https://github.com/user-attachments/assets/b0194fa6-4768-47ac-8362-505f21c6f172" />
 
+- Monitored the Application installaion process through the Device Install Status.
+  - Initially displayed as Pending Install.
+  - Force Synced the device with Intune.
+  - Eventually displayed with a Status of `Installed`.
+  <img width="440" height="55" alt="image" src="https://github.com/user-attachments/assets/ee0c2eb3-aa45-4831-848e-ea5b55f39877" />
+- Confirmed the Applications pushed to the device via Settings > Apps
 
-    
-<img width="440" height="55" alt="image" src="https://github.com/user-attachments/assets/ee0c2eb3-aa45-4831-848e-ea5b55f39877" />
 
 
 
