@@ -52,8 +52,12 @@
   - Initially displayed as Pending Install.
   - Force Synced the device with Intune.
   - Eventually displayed with a Status of `Installed`.
-  <img width="440" height="55" alt="image" src="https://github.com/user-attachments/assets/ee0c2eb3-aa45-4831-848e-ea5b55f39877" />
+    
+      <img width="528" height="56" alt="image" src="https://github.com/user-attachments/assets/a0fcc6b4-ecc9-46b4-8e7f-243b14a62074" />
+
 - Confirmed the Applications pushed to the device via Settings > Apps
+  <img width="440" height="55" alt="image" src="https://github.com/user-attachments/assets/ee0c2eb3-aa45-4831-848e-ea5b55f39877" />
+
 
 
 
