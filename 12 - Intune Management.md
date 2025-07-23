@@ -41,9 +41,12 @@
 
 ---
 
-## Deploying Application
+## Deploying Applications
+- Created new Application via Intune > Devices > Apps
+- Selected
 
     
+<img width="440" height="55" alt="image" src="https://github.com/user-attachments/assets/ee0c2eb3-aa45-4831-848e-ea5b55f39877" />
 
 
   
