@@ -33,6 +33,8 @@
     - Excel
     - Sharepoint Online
 
+---
+
  ## Notes
  - This lab verifies that licenses were correctly assigned and that users can access core services.
  - Services will be configured in more depth in upcoming lab sections
