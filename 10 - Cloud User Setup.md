@@ -39,7 +39,7 @@
 
 ## Microsoft Sharepoint
 - Verified Sharepoint sites were created for the Sales and HR groups.
-- Confirmed users could upload files to the site.
+- Confirmed users could share files to their department through the site.
 
 ---
 
