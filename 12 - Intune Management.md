@@ -23,15 +23,15 @@
 
 ## Create Configuration Profile
 - Created new Configuration Profile via `Intune > Devices > Configuration'
-- Named Configuration `Enforce Firewall On ` requiring Firewall `Enabled`.
-- Assigned configuration to all devices.
+- Named Configuration profile `Enforce Firewall On ` requiring Firewall `Enabled`.
+- Assigned configuration profile to all devices.
   
   <img width="298" height="81" alt="image" src="https://github.com/user-attachments/assets/d2df3ef7-f253-475b-8c7a-105195e9dece" />
 
 ## Test Configuration Profile
-- `PC-2` still has their Firewall off from the compliance policy test.
+- `PC-2` still has its Firewall off from the compliance policy test.
 - Triggered forced syncing.
-- Confirmed configuration profile applied with `PC-2` having all Firewalls on.
+- Confirmed the configuration profile applied and all firewall profiles are now enabled.
   
   <img width="564" height="64" alt="image" src="https://github.com/user-attachments/assets/cc2b2ed9-95b3-4aa2-bdad-ee795bf57775" />
 
@@ -48,7 +48,7 @@
 
     <img width="772" height="31" alt="image" src="https://github.com/user-attachments/assets/b0194fa6-4768-47ac-8362-505f21c6f172" />
 
-- Monitored the Application installaion process through the Device Install Status.
+- Monitored the Application installation process through the Device Install Status.
   - Initially displayed as Pending Install.
   - Force Synced the device with Intune.
   - Eventually displayed with a Status of `Installed`.
@@ -56,6 +56,7 @@
       <img width="528" height="56" alt="image" src="https://github.com/user-attachments/assets/a0fcc6b4-ecc9-46b4-8e7f-243b14a62074" />
 
 - Confirmed the Applications pushed to the device via Settings > Apps
+  
   <img width="440" height="55" alt="image" src="https://github.com/user-attachments/assets/ee0c2eb3-aa45-4831-848e-ea5b55f39877" />
 
 
