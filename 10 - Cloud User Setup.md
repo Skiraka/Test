@@ -1,5 +1,5 @@
 # Goal
-- Ensure users are licensed and can access basic Microsoft 365 Services.
+- Ensure users are licensed and can access Microsoft 365 Services.
 
 ---
 
