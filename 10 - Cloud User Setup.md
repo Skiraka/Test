@@ -17,6 +17,10 @@
 - Created a Microsoft 365 group for the Sales and HR Teams.
 - Configured both groups to use Dynamic Membership rules for automatic user assignment based on Department.
   - `(user.department -eq "Sales")`
+  
+---
+
+## Microsoft Teams
 
 ---
 
