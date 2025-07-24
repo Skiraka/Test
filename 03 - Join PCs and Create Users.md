@@ -38,7 +38,8 @@
   
   <img width="220" height="100" alt="image" src="https://github.com/user-attachments/assets/0b9b817b-7dd0-405b-8724-f1c83991f78d" />
   
-- Set passwords and configured “User must change password at next logon”.
+- Set passwords and configured `User must change password at next logon`.
+- Filled out each users' personal information, especially Department for later use with Dynamic Groups in Microsoft 365.
 
   ---
   
