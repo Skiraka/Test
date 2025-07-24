@@ -13,25 +13,10 @@
 
 ---
 
-## Exchange Online
-- Confirmed mailboxes were provisioned in Exchange Admin Center.
-  - Each user can successfully send and receive mail internally.
-
-  <img width="297" height="65" alt="image" src="https://github.com/user-attachments/assets/5d9b4f68-be8c-43f2-ab2c-3294dd7dacca" />
-
-## OneDrive for Business
-- Confirmed each licensed user can launch OneDrive from the portal.
-- Uploaded a sample file and tested sharing internally.
-
-## Microsoft Teams
-- Confirmed Teams is accessible for all users.
-- Created a test Channel using Admin account, verifying chat, file uploading and channel posting.
-
-## Business Apps
-- Confirmed users can access business related apps:
-    - Word
-    - Excel
-    - Sharepoint Online
+## Microsoft 365 Group
+- Created a Microsoft 365 group for the Sales and HR Teams.
+- Configured both groups to use Dynamic Membership rules for automatic user assignment based on Department.
+  - `(user.department -eq "Sales")`
 
 ---
 
