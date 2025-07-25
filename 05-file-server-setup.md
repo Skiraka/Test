@@ -6,11 +6,11 @@
 ---
 
 ## Create and Join VM to Domain
-- Created new VM named `FS-1` using Windows Server 2022 ISO.
-- Assigned static IP: `192.168.100.60`
-- Set DNS to point to domain controller: `192.168.100.50`
-- Renamed to `FS-1` and joined to domain `domainname.com`.
-- Rebooted and logged in as domain admin to continue setup.
+- Deployed a new VM named `FS-1` using the Windows Server 2022 ISO.
+- Configured a static IP: `192.168.100.60`
+- Set the preferred DNS to the domain controller: `192.168.100.50`
+- Renamed the server to `FS-1` and joined it to the domain `domainname.com`
+- Rebooted and signed in as a domain administrator to continue configuration.
 
 ---
 
