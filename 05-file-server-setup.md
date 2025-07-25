@@ -21,19 +21,29 @@
 ---
 
 ## Share and Set Permissions
-- HR_ReadOnly = Read on HR
-- HR_FullAccess = Modify on HR
-- Similar for Sales & IT groups
-- Shared each folder via File Explorer
+- Shared each folder via File Explorer → Advanced Sharing
+- Configured **NTFS Permissions** as follows:
+
+| Folder | Group Name         | NTFS Permissions |
+|--------|--------------------|------------------|
+| HR     | HR_ReadOnly        | Read             |
+| HR     | HR_FullAccess      | Modify           |
+| Sales  | Sales_ReadOnly     | Read             |
+| Sales  | Sales_FullAccess   | Modify           |
+| IT     | IT_ReadOnly        | Read             |
+| IT     | IT_FullAccess      | Modify           |
+| Public | Domain Users       | Modify           |
 
 ---
 
 ## Test Access from Clients
-- Logged in as different users  on lab PCs
-- Verified:
-  - Correct network drive access
-  - Read-only vs full access applied properly
-  - Public share accessible by all users
+- Logged into test lab PCs as users from HR, Sales, and IT groups.
+- Accessed shares via `\\FS-1\HR`.
+- Verified the following:
+  - Users with ReadOnly groups could access but not modify files.
+  - Users with FullAccess groups could create, edit, and delete files.
+  - The `Public` share was accessible and writable by all authenticated users.
+
 
 
 
