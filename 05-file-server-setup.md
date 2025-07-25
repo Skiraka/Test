@@ -1,21 +1,7 @@
 # Goal
 - Set up FS-1 as the dedicated file server for department-based shared access (HR, Sales, IT, Public)
 
-<img width="253" height="262" alt="image" src="https://github.com/user-attachments/assets/4872550a-64da-475b-afa6-d7afb667f715" />
-
----
-
-## Configuration
-
-| Item               | Configuration                  |
-|--------------------|--------------------------------|
-| VM Name            | FS-1                           |
-| OS                 | Windows Server 2022            |
-| Hostname           | FS-1                           |
-| IP Address         | 192.168.100.60                 |
-| Subnet Mask        | 255.255.255.0                  |
-| DNS Server         | 192.168.100.50 (DC-1)          |
-| Domain             | domainname.com                 |
+  <img width="253" height="262" alt="image" src="https://github.com/user-attachments/assets/4872550a-64da-475b-afa6-d7afb667f715" />
 
 ---
 
