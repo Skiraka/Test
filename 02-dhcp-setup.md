@@ -1,5 +1,5 @@
 # Goal
-- Set up DHCP on DC-1 to automatically assign IP addresses on the internal lab network `192.168.100.0/24`.
+- Set up DHCP on DC-1 to automatically assign IP addresses on the internal lab network.
 
 <img width="192" height="178" alt="image" src="https://github.com/user-attachments/assets/4f68fcda-05ba-479f-b683-d286cbc0a1d8" />
 
@@ -14,9 +14,9 @@
 
 ## Create and Configure DHCP Scope
 - Opened **DHCP Management Console** > **IPv4** > **New Scope**.
-- Defined a scope for `192.168.100.1` to `192.168.100.30` with a subnet mask of `255.255.255.0`.
+- Defined a scope for `192.168.100.2` to `192.168.100.30` with a subnet mask of `255.255.255.0`.
 
-<img width="295" height="77" alt="image" src="https://github.com/user-attachments/assets/b30384e6-d4b4-49f3-b8db-dfa86d957db1" />
+<img width="464" height="51" alt="20d7cdbb-57aa-4205-b3b3-329eab1717bc" src="https://github.com/user-attachments/assets/e770ceed-d4f6-4f98-9bc5-b2bcd1e91912" />
 
 ---
 
