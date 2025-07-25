@@ -14,7 +14,7 @@
 
 ## Create and Configure DHCP Scope
 - Opened **DHCP Management Console** > **IPv4** > **New Scope**.
-- Defined a scope for `192.168.100.1` to `192.168.100.254` with a subnet mask of `255.255.255.0`.
+- Defined a scope for `192.168.100.1` to `192.168.100.30` with a subnet mask of `255.255.255.0`.
 
 <img width="295" height="77" alt="image" src="https://github.com/user-attachments/assets/b30384e6-d4b4-49f3-b8db-dfa86d957db1" />
 
